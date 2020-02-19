@@ -21,5 +21,3 @@ class Post(models.Model):
         
     def __str__(self):
         return f'({self.pk}) - {self.title} : {self.content}'
-        # return self.title
-
